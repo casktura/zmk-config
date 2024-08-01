@@ -22,3 +22,6 @@ include:
       shield: blanckle
     - board: bluemicro840_v1
       shield: settings_reset
+    - board: lpgalaxy_blank_slate
+    - board: lpgalaxy_blank_slate
+      shield: settings_reset
