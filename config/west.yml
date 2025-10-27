@@ -1,16 +1,21 @@
 manifest:
-    remotes:
-        - name: zmkfirmware
-          url-base: https://github.com/zmkfirmware
-        - name: petejohanson
-          url-base: https://github.com/petejohanson
-    projects:
-        - name: zmk
-          remote: zmkfirmware
-          revision: main
-          import: app/west.yml
-        - name: blank-slate-zmk-module
-          remote: petejohanson
-          revision: main
-    self:
-        path: config
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+    - name: keyboardio
+      url-base: https://github.com/keyboardio
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: blank-slate-zmk-module
+      remote: petejohanson
+      revision: main
+    - name: keyboardio-preonic-zmk-module
+      remote: keyboardio
+      revision: main
+  self:
+    path: config

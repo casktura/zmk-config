@@ -25,3 +25,6 @@ include:
   - board: lpgalaxy_blank_slate
   - board: lpgalaxy_blank_slate
     shield: settings_reset
+  - board: keyboardio_preonic
+  - board: keyboardio_preonic
+    shield: settings_reset
