@@ -18,6 +18,14 @@
 
 / {
     chosen {
+        widget_rgb = &butterfly;
+    };
+
+    aliases {
+        status-ws2812 = &butterfly;
+    };
+
+    chosen {
         // Valid choices: '&mit_layout', '&ortho_layout'.
         zmk,physical-layout = &ortho_layout;
     };

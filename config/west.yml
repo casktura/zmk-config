@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: keyboardio
       url-base: https://github.com/keyboardio
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    - name: hitsmaxft
+      url-base: https://github.com/hitsmaxft
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,7 +20,7 @@ manifest:
       remote: keyboardio
       revision: main
     - name: zmk-rgbled-widget
-      remote: caksoylar
+      remote: hitsmaxft
       revision: main
   self:
     path: config
