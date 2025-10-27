@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: keyboardio
       url-base: https://github.com/keyboardio
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -16,6 +18,9 @@ manifest:
       revision: main
     - name: keyboardio-preonic-zmk-module
       remote: keyboardio
+      revision: main
+    - name: zmk-rgbled-widget
+      remote: caksoylar
       revision: main
   self:
     path: config
