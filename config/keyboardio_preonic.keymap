@@ -18,7 +18,7 @@
 / {
     chosen {
         // Valid choices: '&mit_layout', '&ortho_layout'.
-        zmk,physical-layout = &mit_layout;
+        zmk,physical-layout = &ortho_layout;
     };
 
     conditional_layers {
@@ -39,7 +39,7 @@
     &kp TAB    &kp Q    &kp W    &kp E    &kp R     &kp T     &kp Y      &kp U     &kp I     &kp O    &kp P    &kp BSPC
     &kp LCTRL  &kp A    &kp S    &kp D    &kp F     &kp G     &kp H      &kp J     &kp K     &kp L    &kp SEMI &kp SQT
     &kp LSHIFT &kp Z    &kp X    &kp C    &kp V     &kp B     &kp N      &kp M     &kp COMMA &kp DOT  &kp FSLH &mt RSHIFT ENTER
-    &kp ESC    &mo FUNC &kp LGUI &kp LALT &mo LOWER &kp SPACE &kpo SPACE &mo RAISE &kp RALT  &kp RGUI &kp DEL  &trans
+    &kp ESC    &mo FUNC &kp LGUI &kp LALT &mo LOWER &kp SPACE &kp SPACE &mo RAISE &kp RALT  &kp RGUI &kp DEL  &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
